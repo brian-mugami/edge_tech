@@ -7,9 +7,13 @@
     text-transform: capitalize;
 }
 
+span{
+  color: red;
+}
 p{
   font-family: 'Russo One', sans-serif;
-  color: rgb(9, 9, 9);
+  color: rgb(238, 20, 20);
+  font-size: xx-large
 }
 
 #logo {
@@ -30,6 +34,7 @@ p{
 .jumbotron {
   background-image: url("./images/image5.png");
   background-size: cover;
+  
 }
 
 .carousel-item{
