@@ -7,6 +7,19 @@
     text-transform: capitalize;
 }
 
+.spanner{
+  color: #000000;
+  font-size: larger;
+  font-weight: bolder;
+  
+}
+
+i{
+  font-size: large;
+}
+.jumbo{
+  background: white;
+}
 
 .menubar:hover{
   background: red;
@@ -14,7 +27,6 @@
 }
 
 #white{
-  color: azure;
   background: black;
 }
 span{
@@ -39,17 +51,23 @@ p{
     margin-top: 2vh;
     max-height: 90vh;
     align-items: center;
-    justify-content: space-around;
-    
-}
-.jumbotron {
-  background-image: url("./images/image5.png");
-  background-size: cover;
-  
+    justify-content: space-between; 
 }
 
+
+.tron{
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .carousel-item{
   height: 500px;
+}
+
+#text{
+  font-family: 'Russo One', sans-serif;
+  font-size: small;
 }
 
 .d-block {
