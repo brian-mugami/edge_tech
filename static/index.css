@@ -7,6 +7,15 @@
     text-transform: capitalize;
 }
 
+
+.menubar:hover{
+  background: red;
+}
+
+#white{
+  color: azure;
+  background: black;
+}
 span{
   color: red;
 }
@@ -30,6 +39,7 @@ p{
     max-height: 90vh;
     align-items: center;
     justify-content: space-around;
+    
 }
 .jumbotron {
   background-image: url("./images/image5.png");
